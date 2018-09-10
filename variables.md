@@ -169,3 +169,4 @@ There's also a special kind of literal called a **class** literal
     - prior to an ***F*** or ***L*** suffix
     - in positions where a string of digits is expected
 
+e.g.: `123_456`
