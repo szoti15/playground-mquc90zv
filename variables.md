@@ -9,7 +9,7 @@ There are four types of variables:
 
 Every variable has three attributes: ***name***, ***type***, ***value***.
 
-####Naming: 
+#### Naming: 
 -case-sensitive, unicode letters and digits, beginning with a letter, $ or _ (underscore)
 -the convention is to always begin your variable names with letter (and the dollar sign is never used at all)
 -white space is not permitted
@@ -18,7 +18,7 @@ Every variable has three attributes: ***name***, ***type***, ***value***.
 
 e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON_EARTH`, `PI`
 
-####Type:
+#### Type:
 -Java is a type specific language, that means every variable has a type.
 -We diferrentiate 2 category within types: ***primitive*** and ***reference***:
 +primitive types are the built in types that are already declared by the language
