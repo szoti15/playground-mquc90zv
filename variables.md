@@ -170,3 +170,32 @@ There's also a special kind of literal called a **class** literal
     - in positions where a string of digits is expected
 
 e.g.: `123_456`
+
+# Arrays
+
+- an array is a container object that holds a fixed number of values of a single type. After creation, its length is fixed
+- each item in an array is called an element, and each element is accessed by its numerical index, the numbering begins with 0
+  
+##### Declaring a Variable to Refer to an Array:
+- declaration has two components: the array's type and the array's name. 
+type is written as type[] (the brackets are special symbols indicating that this variable holds an array)
+- the declaration does not actually create an array, it simply tells the compiler that this variable will hold an array of the specified type e.g. `byte[] anArrayOfBytes`
+- you can also place the brackets after the array's name: `float anArrayOfFloats[];` - convention discourages this form, the brackets identify the array type and should appear with the type designation
+  
+##### Creating, Initializing, and Accessing an Array:
+- one way to create an array is with the new operator, it allocates an array with enough memory for X type elements and assigns the array to the variable
+- assign values:`array[x] = value;`
+- alternatively, you can use the shortcut syntax to create and initialize an array: `type[] arrayName = { value1, value2, ...}`
+- you can create a multidimensional array by using two or more sets of brackets ( is an array whose components are themselves arrays)
+- you can use the built-in **length** property to determine the size of any array
+  
+##### Copying Arrays:
+- the ***System*** class has an **arraycopy** method that you can use to efficiently copy data from one array into another: `arraycopy(sourceArray, sourceStartPosition, destinationArray, destinationStartPos, numberOfElementsToCopy)`
+	
+##### Array Manipulation:
+- copyOfRange(sourceArray, startPosition(inclusively), endPosition (exclusively)) - return with a new array
+- binarySearch -for a value
+- equals
+- fill
+- sort, parallelSort (ascending order) 
+
