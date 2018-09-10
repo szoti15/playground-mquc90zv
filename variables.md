@@ -28,32 +28,40 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
 - predefined by the language and is named by reserved keywords
 - primitive values do not share state with other primitive values
 
-+ byte:     * 8-bit signed two's complement integer
-		    * has a minimum value of -128 and a maximum value of 127 (inclusive)
-		    * useful for saving memory in large arrays, be used in place if int where their limits help to clarify the code
++ byte:     
+    - 8-bit signed two's complement integer
+    - has a minimum value of -128 and a maximum value of 127 (inclusive)
+    - useful for saving memory in large arrays, be used in place if int where their limits help to clarify the code
 				
-+ short:    * 16-bit signed two's complement integer
-		    * has a minimum value of -32,768 and a maximum value of 32,767 (inclusive)
++ short:    
+    - 16-bit signed two's complement integer
+    - has a minimum value of -32,768 and a maximum value of 32,767 (inclusive)
 
-+ int:	    -32-bit signed two's complement integer		
-		    -has a minimum value of -2^31 and a maximum value of 2^31-1 (inclusive)
-		    -in JSE 8 and later you can use the int to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^32-1
-		    - ha tulcsordulás van, akk az Integer.MIN -től kezdi újra
++ int:	    
+    - 32-bit signed two's complement integer		
+    - has a minimum value of -2^31 and a maximum value of 2^31-1 (inclusive)
+    - in JSE 8 and later you can use the int to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^32-1
+    - ha tulcsordulás van, akk az Integer.MIN -től kezdi újra
 		
-+ long:	    -64-bit signed two's complement integer		
-		    -has a minimum value of -2^63 and a maximum value of 2^63-1 (inclusive)
-		    -in JSE 8 and later you can use the int to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^64-1
++ long:	    
+    - 64-bit signed two's complement integer		
+    - has a minimum value of -2^63 and a maximum value of 2^63-1 (inclusive)
+    - in JSE 8 and later you can use the int to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^64-1
 		
-+ float:	-a single-precision 32-bit IEEE 754 floating point
-		    -This data type should never be used for precise values, such as currency.
++ float:	
+    - a single-precision 32-bit IEEE 754 floating point
+    - This data type should never be used for precise values, such as currency.
 		
-+ double:   -double-precision 64-bit IEEE 754 floating point
-		    -For decimal values, this data type is generally the default choice.
-		    -this data type should never be used for precise values, such as currency.
++ double:   
+    - double-precision 64-bit IEEE 754 floating point
+    - For decimal values, this data type is generally the default choice.
+    - this data type should never be used for precise values, such as currency.
 		
-+ boolean:  -has only two possible values: true and false
++ boolean:  
+    - has only two possible values: true and false
 		
-+ char:	    -single 16-bit Unicode character
-		    -It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
++ char:	    
+    - single 16-bit Unicode character
+    - It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
 
 
