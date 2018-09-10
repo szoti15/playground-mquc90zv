@@ -7,8 +7,7 @@ There are four types of variables:
 	are only visible to the methods in which they are declared, they are not accessible from the rest of the class
 - **Parameters**: declared in the methods specifications
 
-Every variable has four 
-
+Every variable has three attributes: ***name***, ***type***, ***value***.
 
 >Naming: 
 -case-sensitive, unicode letters and digits, beginning with a letter, $ or _ (underscore)
@@ -18,3 +17,11 @@ Every variable has four
 -constant values: capitalize every letter and separating subsequent words with underscore (By convention the underscore character is never used elsewhere) 
 
 e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON_EARTH`, `PI`
+
+>Type:
+-Java is a type specific language, that means every variable has a type.
+-We diferrentiate 2 category within types: ***primitive*** and ***reference***:
++primitive types are the built in types that are already declared by the language
++reference types are the classes
+
+
