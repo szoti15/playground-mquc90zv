@@ -64,4 +64,18 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
     - single 16-bit Unicode character
     - It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
 
+##### String:	
+- the String class is not technically a primitive data type, but considering the special support given to it by the language
+- the language also provides special support for character strings via the ***java.lang.String*** class
+- enclosing your character string within double quotes ***"*** will automatically create a new String object
+- String objects are immutable
+- before creating a new object, Java check if there is any String with the same value that is recently created, if so the variable will point to that value, this "cache" is called String pool 
+
+##### Default values:
+| type | value |
+| ------:| -----------:|
+| byte   | 0 |
+| short  | 0 |
+| int    | 0 |
+| int    | 0 |    
 
