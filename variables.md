@@ -128,14 +128,28 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
     public static void main(String[] args){
 // }
     System.out.println("Line feed: before\nafter");
+    System.out.println("------------------------------------------------");
+    
     System.out.println("tab: before\tafter");    
+    System.out.println("------------------------------------------------");
+    
     System.out.println("form feed: before\fafter");    
+    System.out.println("------------------------------------------------");
+    
     System.out.println("carriage: before\rafter");    
+    System.out.println("------------------------------------------------");
+    
     System.out.println("backspace: before\bafter"); 
+    System.out.println("------------------------------------------------");
+    
     System.out.println("double quote: before\"after"); 
+    System.out.println("------------------------------------------------");
+    
     System.out.println("single quote: before\'after"); 
+    System.out.println("------------------------------------------------");
+    
     System.out.println("backslash: before\\after"); 
-
+    System.out.println("------------------------------------------------");
 // { autofold
     }
 }
