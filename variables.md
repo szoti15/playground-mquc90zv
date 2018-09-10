@@ -77,5 +77,11 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
 | byte   | 0 |
 | short  | 0 |
 | int    | 0 |
-| int    | 0 |    
+| long    | 0L |    
+| float    | 0.0f |  
+| double    | 0.0d |  
+| char    | '\u0000' |  
+| boolean    | false |  
+| String (and any reference type)    | null |  
+
 
