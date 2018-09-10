@@ -7,6 +7,18 @@ There are four types of variables:
 	are only visible to the methods in which they are declared, they are not accessible from the rest of the class
 - **Parameters**: declared in the methods specifications
 
+```
+public class Variables {
+    static int classVariable;
+    int instanceVariable;
+
+    public void method(int parameterVariable){
+        int localVariable;
+        ...
+    }
+}
+```
+
 Every variable has three attributes: ***name***, ***type***, ***value***.
 
 #### Naming: 
@@ -109,6 +121,26 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
 - may contain any Unicode (UTF-16) characters
 - if your editor and file system allow it, you can use such characters directly in your code, if not, you can use a "Unicode escape" such as '\u0108' (capital C with circumflex)
 - special escape sequences: **\b** (backspace), **\t** (tab), **\n** (line feed), **\f** (form feed), **\r** (carriage return), **\"** (double quote), **\'** (single quote), and **\\** (backslash)
+
+``` java runnable
+// { autofold
+  public class Main {
+    public static void main(String[] args){
+// }
+    System.out.println("Line feed: before\nafter");
+    System.out.println("tab: before\tafter");    
+    System.out.println("form feed: before\fafter");    
+    System.out.println("carriage: before\rafter");    
+    System.out.println("backspace: before\bafter"); 
+    System.out.println("double quote: before\"after"); 
+    System.out.println("single quote: before\'after"); 
+    System.out.println("backslash: before\\after"); 
+
+// { autofold
+    }
+}
+// }
+```
 	
 There's also a special **null** literal that can be used as a value for any reference type. ***null*** is often used in programs as a marker to indicate that some object is unavailable
 There's also a special kind of literal called a **class** literal
