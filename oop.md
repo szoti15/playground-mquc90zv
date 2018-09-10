@@ -24,3 +24,9 @@ By modelling ***Animal*** we try to collect every attributes (fields) and every 
 It has 3 fields `avarageLifeTime`, `height`, `weight` and a method `breed`.
 
 From this blueprint you can create an exact instance of an ***Animal*** e.g. your dog, with his avarageLifetime 11 years, his height 35.56 cm and his weight 10.7 kg. We call these instances `object`.
+
+
+//TODO: bytecode
+//TODO: multiplatform
+//TODO: gc
+
