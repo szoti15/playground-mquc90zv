@@ -9,7 +9,7 @@ Objects share two characteristics: they all have state and behaviour:
 
 Class: a generic model, the blueprint of the real life things from which individual objects are created.
 
-```
+``` java
 public class Animal {
     int avarageLifetime;        //in years
     float height;
