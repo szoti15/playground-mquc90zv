@@ -1,6 +1,4 @@
-# JAVA SE
-
-### Object-Oriented Programming Concepts
+# Object-Oriented Programming Concepts
 
 
 Objects share two characteristics: they all have state and behaviour:
