@@ -28,39 +28,39 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
 - predefined by the language and is named by reserved keywords
 - primitive values do not share state with other primitive values
 
-+ byte:     
++ **byte**:     
     - 8-bit signed two's complement integer
     - has a minimum value of -128 and a maximum value of 127 (inclusive)
-    - useful for saving memory in large arrays, be used in place if int where their limits help to clarify the code
+    - useful for saving memory in large arrays, be used instead of ***int*** where their limits help to clarify the code
 				
-+ short:    
++ **short**:    
     - 16-bit signed two's complement integer
     - has a minimum value of -32,768 and a maximum value of 32,767 (inclusive)
 
-+ int:	    
++ **int**:	    
     - 32-bit signed two's complement integer		
     - has a minimum value of -2^31 and a maximum value of 2^31-1 (inclusive)
-    - in JSE 8 and later you can use the int to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^32-1
-    - ha tulcsordulás van, akk az Integer.MIN -től kezdi újra
+    - in JSE 8 and later you can use the ***int*** to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^32-1
+    - if there is an overflow the counting continues from Integer.MIN in a cycle
 		
-+ long:	    
++ **long**:	    
     - 64-bit signed two's complement integer		
     - has a minimum value of -2^63 and a maximum value of 2^63-1 (inclusive)
-    - in JSE 8 and later you can use the int to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^64-1
+    - in JSE 8 and later you can use the ***long*** to represent an unsigned 32-bit integer which has a minimum value of 0 and a maximum value of 2^64-1
 		
-+ float:	
++ **float**:	
     - a single-precision 32-bit IEEE 754 floating point
-    - This data type should never be used for precise values, such as currency.
+    - this data type should never be used for precise values, such as currency
 		
-+ double:   
++ **double**:   
     - double-precision 64-bit IEEE 754 floating point
-    - For decimal values, this data type is generally the default choice.
-    - this data type should never be used for precise values, such as currency.
+    - for decimal values, this data type is generally the default choice
+    - this data type should never be used for precise values, such as currency
 		
-+ boolean:  
-    - has only two possible values: true and false
++ **boolean**:  
+    - has only two possible values: ***true*** and ***false***
 		
-+ char:	    
++ **char**:	    
     - single 16-bit Unicode character
     - It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
 
