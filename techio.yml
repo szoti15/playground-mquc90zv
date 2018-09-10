@@ -2,5 +2,5 @@ title: Java SE 101
 plan:
 - title: Object Oriented Programming Concepts
   statement: oop.md
-- title: Variables and Literals
+- title: Variables, Literals and Arrays
   statement: variables.md
