@@ -7,4 +7,14 @@ There are four types of variables:
 	are only visible to the methods in which they are declared, they are not accessible from the rest of the class
 - **Parameters**: declared in the methods specifications
 
+Every variable has four 
 
+
+>Naming: 
+-case-sensitive, unicode letters and digits, beginning with a letter, $ or _ (underscore)
+-the convention is to always begin your variable names with letter (and the dollar sign is never used at all)
+-white space is not permitted
+-if the name is consists of more than one word, capitalize the first letter if each subsequent word
+-constant values: capitalize every letter and separating subsequent words with underscore (By convention the underscore character is never used elsewhere) 
+
+e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON_EARTH`, `PI`
