@@ -4,8 +4,8 @@
 
 
 Objects share two characteristics: they all have state and behaviour
-    - stores the state in fields
-    - exposes its behaviour through methods: operate in an object's internal state and serve as the primary mechanism for object-to-object communication
++ stores the state in fields
++ exposes its behaviour through methods: operate in an object's internal state and serve as the primary mechanism for object-to-object communication
 
 Class: a generic model, the blueprint of the real life things from which individual objects are created.
 
