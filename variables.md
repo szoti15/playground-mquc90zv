@@ -84,4 +84,42 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
 | boolean    | false |  
 | String (and any reference type)    | null |  
 
+# Literals
+
+- primitive types are special data types built into the language (they are not objects created from a class)
+- a literal is the source code representation of a fixed value
+- literals are represented directly in your code without requiring computation
+- it's possible to assign a literal to a variable of a primitive type
+		
+##### integer literals:
+- an integer literal is of type ***long*** if it ends with the letter ***L*** or ***l***, otherwise it is of type ***int*** 
+- ***L*** is more readable than ***l***		
+- values of the integral types ***byte***, ***short***, ***int***, and ***long*** can be created from ***int*** literals
+- values of type ***long*** that exceed the range of ***int*** can be created from ***long*** literals
+- decaimal: Base 10, 0-9
+- Hexadecimal: Base 16, 0-9 and A-F
+- binary: base 2, 0-1  (you can create binary literals in Java SE 7 and later)
+- if you need to use another number system: prefix 0x indicates hexadecimal and 0b indicates binary
+	
+##### floating point literals:
+- is of type ***float*** if it ends with the letter ***F*** or ***f***, otherwise its type is ***double*** and it can optionally end with the letter ***D*** or ***d***
+- the floating point types (***float*** and ***double***) can also be expressed using ***E*** or ***e*** (for scientific notation)	(x10^x ~ ...ex)
+	
+##### character and string literals:
+- may contain any Unicode (UTF-16) characters
+- if your editor and file system allow it, you can use such characters directly in your code, if not, you can use a "Unicode escape" such as '\u0108' (capital C with circumflex)
+- special escape sequences: **\b** (backspace), **\t** (tab), **\n** (line feed), **\f** (form feed), **\r** (carriage return), **\"** (double quote), **\'** (single quote), and **\\** (backslash)
+	
+There's also a special **null** literal that can be used as a value for any reference type. ***null*** is often used in programs as a marker to indicate that some object is unavailable
+There's also a special kind of literal called a **class** literal
+
+##### Using Underscore Characters in Numeric Literals
+- any number of underscore characters (_) can appear anywhere between digits in a numerical literal
+- separate groups of digits in numeric literals, which can improve the readability of your code
+- you can place underscores only between digits
+- you cannot place underscores in the following places:	
+    - at the beginning or end of a number
+    - adjacent to a decimal point in a floating point literal
+    - prior to an ***F*** or ***L*** suffix
+    - in positions where a string of digits is expected
 
