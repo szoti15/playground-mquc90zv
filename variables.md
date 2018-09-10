@@ -25,15 +25,15 @@ e.g.: variables: `exampleVariable1`, `_exampleVariable2`, constants: `GRAVITY_ON
 + reference types are the classes
 
 ##### Primitive types:
--predefined by the language and is named by reserved keywords
--primitive values do not share state with other primitive values
+- predefined by the language and is named by reserved keywords
+- primitive values do not share state with other primitive values
 
-+ byte:     -8-bit signed two's complement integer
-		    -has a minimum value of -128 and a maximum value of 127 (inclusive)
-		    -useful for saving memory in large arrays, be used in place if int where their limits help to clarify the code
++ byte:     * 8-bit signed two's complement integer
+		    * has a minimum value of -128 and a maximum value of 127 (inclusive)
+		    * useful for saving memory in large arrays, be used in place if int where their limits help to clarify the code
 				
-+ short:    -16-bit signed two's complement integer
-		    -has a minimum value of -32,768 and a maximum value of 32,767 (inclusive)
++ short:    * 16-bit signed two's complement integer
+		    * has a minimum value of -32,768 and a maximum value of 32,767 (inclusive)
 
 + int:	    -32-bit signed two's complement integer		
 		    -has a minimum value of -2^31 and a maximum value of 2^31-1 (inclusive)
