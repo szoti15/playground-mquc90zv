@@ -1,4 +1,6 @@
-title: Simple Java Template
+title: Java SE 101
 plan:
-- title: Java Snippet
-  statement: statement.md
+- title: Object Oriented Programming Concepts
+  statement: oop.md
+- title: Variables
+  statement: variables.md
