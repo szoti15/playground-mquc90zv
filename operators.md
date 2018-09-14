@@ -22,7 +22,7 @@ All binary operators except for the assignment operators are evaluated from left
 | logical OR            | || 
 | ternary               | ? : 
 | assignment            | =, +=, -=, *=, /=, %=, &=, ^=, |=, <<=, >>=, >>>= 
-```		
+```	
 
 
 ### Simple assignment Operator
@@ -30,7 +30,19 @@ All binary operators except for the assignment operators are evaluated from left
 	operand from roght to left
 	can also be used to assign object references
 	
-	
+``` java runnable	
+// { autofold
+  public class Main {
+    public static void main(String[] args){
+// }
+   //assignment
+   int variable = 10;
+   System.out.println(variable);
+// { autofold
+    }
+}
+// }
+```
 			
 	Arithmetic Operators
 		+	Additive operator (also used for String concatenation)
