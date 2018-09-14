@@ -4,3 +4,11 @@ plan:
   statement: oop.md
 - title: Variables, Literals and Arrays
   statement: variables.md
+- title: Operators
+  statement: operators.md
+- title: Expressions, Statements and Blocks 
+  statement: expression.md
+- title: Statements
+  statement: statements.md
+- title: Classes
+  statement: classes.md
