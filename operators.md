@@ -57,7 +57,7 @@ The + operator can also be used for concatenating (joining) two strings together
   public class Main {
     public static void main(String[] args){
 // }
-   //additive
+  
    int a = 10;
    int b = 6;
    
@@ -73,15 +73,48 @@ The + operator can also be used for concatenating (joining) two strings together
 // }
 ```
 
-	Unary Operators
-		require only one operand
-		+	Unary plus operator; indicates positive value (numbers are positive without this, however)
-		-	Unary minus operator; negates an expression
-		++	Increment operator; increments a value by 1
-		--	Decrement operator; decrements a value by 1
-		!	Logical complement operator; inverts the value of a boolean
+### Unary Operators
+requires only one operand
++	Unary plus operator, indicates positive value (numbers are positive without this, however)
+-	Unary minus operator, negates an expression
+++	Increment operator, increments a value by 1
+--	Decrement operator, decrements a value by 1
+!	Logical complement operator, inverts the value of a boolean
 
-		The increment/decrement operators can be applied before (prefix) or after (postfix) the operand. The code result++; and ++result; will both end in result being incremented by one. The only difference is that the prefix version (++result) evaluates to the incremented value, whereas the postfix version (result++) evaluates to the original value.
+The increment/decrement operators can be applied before (prefix) or after (postfix) the operand. The code result++; and ++result; will both end in result being incremented by one. The only difference is that the prefix version (++result) evaluates to the incremented value, whereas the postfix version (result++) evaluates to the original value.
+
+``` java runnable	
+// { autofold
+  public class Main {
+    public static void main(String[] args){
+// }
+  
+   int a = 10;
+   
+   System.out.println("a: " + (+a));
+   System.out.println("-a: " + (-a)));
+   
+   //a++
+   System.out.println("a++: " + (a++));
+   System.out.println("after a++: " + a);
+
+   //++a
+   System.out.println("++a: " + (++a));
+   System.out.println("after ++a: " + a);
+   
+   //a--
+   System.out.println("a--: " + (a--));
+   System.out.println("after a--: " + a);
+
+   //--a
+   System.out.println("--a: " + (--a));
+   System.out.println("after --a: " + a);
+   
+// { autofold
+    }
+}
+// }
+```
 	
 	The Equality and Relational Operators
 		The equality and relational operators determine if one operand is greater than, less than, equal to, or not equal to another operand
