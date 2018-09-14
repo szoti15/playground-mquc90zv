@@ -10,16 +10,16 @@ All binary operators except for the assignment operators are evaluated from left
 | --------------------- | ---------- |
 | postfix	            | expr++ expr-- |
 | unary	                | ++expr --expr +expr -expr ~ ! |
-| multiplicative        | * / % |
+| multiplicative        | * "/" % |
 | additive              | + - |
 | shift	                | << >> >>> |
 | relational            | < > <= >= instanceof |
 | equality              | == != |
 | bitwise AND           | 	& |
 | bitwise exclusive OR  | 	^ |
-| bitwise inclusive OR  | 	| |
+| bitwise inclusive OR  | 	'|' |
 | logical AND           | 	&& |
-| logical OR            | 	|| |
+| logical OR            | 	/|//| |
 | ternary               | 	? : |
 | assignment            | 	= += -= *= /= %= &= ^= |= <<= >>= >>>= |
 			
