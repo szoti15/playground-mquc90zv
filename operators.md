@@ -8,7 +8,7 @@ All binary operators except for the assignment operators are evaluated from left
 ```
 | Operators             | Precedence
 | --------------------- | ---------- 
-| postfix	      | expr++, expr-- 
+| postfix	        | expr++, expr-- 
 | unary	                | ++expr, --expr, +expr, -expr, ~, ! 
 | multiplicative        | *, /, % 
 | additive              | +, - 
@@ -24,10 +24,13 @@ All binary operators except for the assignment operators are evaluated from left
 | assignment            | =, +=, -=, *=, /=, %=, &=, ^=, |=, <<=, >>=, >>>= 
 ```		
 
-	Simple assignment Operator
-		the most common operator
-		operand from roght to left
-		can also be used to assign object references
+
+### Simple assignment Operator
+	the most common operator
+	operand from roght to left
+	can also be used to assign object references
+	
+	
 			
 	Arithmetic Operators
 		+	Additive operator (also used for String concatenation)
