@@ -8,7 +8,7 @@ All binary operators except for the assignment operators are evaluated from left
 ```
 | Operators             | Precedence
 | --------------------- | ---------- 
-| postfix	            | expr++, expr-- 
+| postfix	      | expr++, expr-- 
 | unary	                | ++expr, --expr, +expr, -expr, ~, ! 
 | multiplicative        | *, /, % 
 | additive              | +, - 
