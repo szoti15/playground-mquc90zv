@@ -5,9 +5,7 @@ The operators in the following table are listed according to precedence order.
 When operators of equal precedence appear in the same expression, a rule must govern which is evaluated first. 
 All binary operators except for the assignment operators are evaluated from left to right (assignment operators are evaluated right to left)
 
-```
 
-```	
 
 
 ### Simple assignment Operator
